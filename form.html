@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="form.css">
+    <title>Information</title>
+</head>
+<body>
+<section class="formStyle">
+<div class="form">
+    <form action="" id="form">
+        <label for="uname">USER NAME :</label><br>
+        <input type="text" name="name" id="name" placeholder="Enter an username.."><br><br>
+        <label for="email">EMAIL :</label><br>
+        <input type="email" name="email" id="email" placeholder="Enter an email.."><br><br>
+        <label for="age">Age :</label><br>
+        <input type="text" name="age" id="age" placeholder="Enter an email.."><br><br>
+        <div class="btn">
+        <input type="submit" class="sub submit">
+        <input type="reset" class="sub reset">
+       </div>
+    </form>
+</div>
+<div class="select">
+    <p>Favorite color ?</p>
+    <select name="selectList" id="opt1" class="item">
+        <option value="red">Red</option>
+        <option value="blue">Blue</option>
+        <option value="pink">Pink</option>
+        <option value="yellow">Yellow</option>
+        <option value="orange">Orange</option>
+        <option value="green">Green</option>
+        <option value="purple">Puprle</option>
+        <option value="white">White</option>
+        <option value="black">Black</option>
+        <option value="brown">Brown</option>
+    </select>
+    <p>Favorite style ?</p>
+    <select name="selectList" id="opt2" class="item">
+        <option value="italic">Italic</option>
+        <option value="normal">Normal</option>
+        <option value="oblique">Oblique</option>
+        <option value="initial">Initial</option>
+        <option value="inherit">Inherit</option>
+    </select>
+</div>
+<div class="result">
+    <p>Your Info : </p>
+    <ul id="info">
+        
+    </ul>
+</div>
+</section>
+
+<script src="form.js"></script>
+</body>
+</html>
